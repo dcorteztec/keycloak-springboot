@@ -1,0 +1,9 @@
+rootProject.name = 'keycloak-environment'
+
+include ':keycloak-server'
+include ':extensions:custom-authenticator'
+include ':extensions:theme-provider'
+include ':extensions:rest-user-provider'
+include ':extensions:flyweight-user-storage-provider-extension'
+include ':extensions:conditional-authenticator'
+
